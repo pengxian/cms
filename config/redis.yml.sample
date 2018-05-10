@@ -1,0 +1,18 @@
+defaults: &defaults
+  redis_server: 'localhost'
+  redis_port: 6379
+  redis_db_num: 0
+  # redis_namespace: ''
+  qianfandu_redis_server: ''
+  qianfandu_redis_port: 6379
+  qianfandu_redis_db_num: 15
+  # qianfandu_redis_namespace: ''
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults

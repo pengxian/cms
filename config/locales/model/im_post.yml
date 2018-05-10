@@ -1,0 +1,22 @@
+zh-CN:
+  activerecord:
+    attributes:
+      im_post:
+        id: ID
+        user_id: 后台账号
+        creator_id: 发布人ID
+        status: 状态
+        tag_ids: 标签ID
+        content: 内容
+        pic: 图片
+        published_at: 发布时间
+        created_at: 创建时间
+        updated_at: 更新时间
+        creator_id_equals: 发布人ID等于
+    enums:
+      im_post:
+        status:
+          progressing: 初始化
+          timing: 定时发布中
+          successed: 发布成功
+          failed: 发布失败

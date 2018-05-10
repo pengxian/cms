@@ -1,0 +1,12 @@
+defaults: &defaults
+  host: ''
+  qianfandu_host: ''
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults

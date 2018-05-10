@@ -1,0 +1,10 @@
+zh-CN:
+  activerecord:
+    models:
+      admin_user: 用户
+      im_post: 朋友圈
+      im_attachment: 朋友圈附件
+      tmp_im_post: 朋友圈抓取池
+      tmp_im_attachment: 朋友圈抓取池附件
+      topic: 问答
+      topic_attachment: 问答附件

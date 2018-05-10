@@ -1,0 +1,22 @@
+default: &default
+  adapter: mysql2
+  pool: 5
+  username: root
+  password:
+  encoding: utf8mb4
+  collation: utf8mb4_unicode_ci
+  port: 3306
+
+development:
+  <<: *default
+  database: cms_development
+
+test:
+  <<: *default
+  database: cms_test
+
+production:
+  <<: *default
+  database: cms_production
+  username: cms
+  password: <%= ENV['CMS_DATABASE_PASSWORD'] %>

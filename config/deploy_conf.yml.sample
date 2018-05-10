@@ -1,0 +1,13 @@
+test:
+  domain: ''
+  deploy_to: xx
+  repository: xx
+  branch: staging
+  rails_env: production
+
+production:
+  domain: ''
+  deploy_to: xx
+  repository: xx
+  branch: master
+  rails_env: production
